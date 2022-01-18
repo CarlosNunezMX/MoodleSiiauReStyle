@@ -25,3 +25,10 @@ Cualquier error de diseño favor de contactarse al Discord `kokoniwasugoi nin de
 Este proyecto no incumple con ninguna norma. Moodle es de código libre así que cualquiera puede hacer cambios a gusto. Y con las modificaciones al SIIAU estas son visuales y no afectan al funcionamiento principal del sistema, ademas no hay lucro con este proyecto y es de código libre.
 **Proyecto no asociado a la Universidad de Guadalajara ni asociados**
 
+## Instalacion
+1. Descargar el archivo ZIP de donde dice "code"
+2. Extraer ese ZIP
+3. Abrir `chrome://extensions`
+4. Click en "Cargar sin empaquetar"
+5. Seleccionar la carpeta resultante
+6. Listo UwU
