@@ -1,0 +1,17 @@
+{
+"update_url":"http://clients2.google.com/service/update2/crx",
+  "name": "Test Extension",
+  "version": "2",
+  "manifest_version": 2,
+  "description": "This is a test extension for Google Chrome.",
+  "content_scripts": [
+    {
+      "matches": ["*://prepa6.sems.udg.mx/moodle/*"], 
+      "js": ["./script.js"],
+      "css" : ["./style.css"]
+    }
+  ],
+
+    "permissions": [ "tabs", "*://prepa6.sems.udg.mx/moodle/*" ]
+
+}

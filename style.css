@@ -1,0 +1,195 @@
+:root {
+    --blue: #3949AB !important;
+    --indigo: #1A237E !important;
+    --purple: #6200EA !important;
+    --pink: #FF4081 !important;
+    --red: #FF1744 !important;
+    --orange: #FB8C00 !important;
+    --yellow: #FFEB3B !important;
+    --green: #4CAF50 !important;
+    --teal: #00897B !important;
+    --cyan: #00ACC1 !important;
+    --primary: #1177d1;
+    --secondary: #ced4da;
+    --success: #398439;
+    --info: #5bc0de;
+    --warning: #f0ad4e;
+    --danger: #d43f3a;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+}
+
+
+
+    
+
+footer .container{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+footer .container div {
+    text-align: center !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.navbar .logo img{
+    display: none !important;
+}
+
+input{
+    border: none !important;
+    background: rgb(200,200,200) !important;
+    border-radius: 5px !important;
+}
+
+.rememberpass {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.rememberpass input{
+    margin-right: 5px !important;
+}
+
+.card{
+    border-radius: 5px !important;
+    border: none !important;    
+    overflow: hidden !important;
+}
+
+#region-main{
+    padding: 0 1.25rem !important;
+}
+
+.btn-outline-secondary{
+    background: #ced4da !important;
+    border: none !important;
+    border-radius: 5px !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700 !important;
+    text-align: center !important;
+}
+
+.block-timeline > h1, h2, h3, h4, h5, h6 {
+    text-align: left !important;
+}
+
+.block_myprofile .card-body .card-text{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+}
+
+a{
+    color: #000 !important;
+    font-weight: 700 !important;
+}
+.calendar-controls{
+    background: var(--info) !important;
+    padding: 5px !important;
+}
+
+.calendar-controls a{
+    color: #fff !important;
+}
+a:hover {
+    color: var(--blue) !important;
+}
+
+nav .btn-light{
+    border: none !important;
+    background: none !important;
+    transition: ease all 0.3s;
+}
+
+nav .btn-ligth:hover {
+    background: #f8f9fa !important;
+}
+#nav-drawer a{
+    background: none !important;
+    border: none !important;
+}
+#nav-drawer a:hover{
+    color: #fff;
+    background: rgb(200,200,200) !important;
+}
+#nav-drawer a.active_tree_node{
+    background: var(--blue) !important;
+    color: #fff !important;
+}
+
+#nav-drawer a.active_tree_node:hover{
+    background: var(--blue) !important;
+    color: #fff !important;
+    
+}
+#nav-drawer{
+    padding: 0 !important;
+}
+footer a{
+    color: #fff !important;
+}
+#nav-drawer div.list-group-item{
+    background: #b2b2b2 !important;
+    color: #fff !important;
+}
+#region-main{
+    border: none !important;
+    border-radius: 5px !important;
+}
+
+body{
+    background: rgb(225,225,225) !important;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
+    border: none !important;
+    background: rgb(225,225,225) !important;
+    border-radius: 5px !important;
+}
+
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus{
+    border: none !important;
+    background: rgb(200,200,200) !important;
+    border-radius: 5px !important;    
+}
+
+.section-navigation.mdl-bottom{
+    display: flex !important;
+    width: 100% !important;
+    padding: 5px !important;
+}
+
+#intro {
+    padding: 1.25rem !important;
+}
+
+#intro table{
+    width: 100% !important;
+    border: none !important;
+    border-radius: 5px !important;
+    overflow: hidden !important;
+} 
+
+#intro table tr:nth-child(2n+1){
+    background-color: #eeeeee !important;
+    text-align: center !important;
+}
+
+.navbar #nav-notification-popover-container {
+    color: #000 !important;
+}
