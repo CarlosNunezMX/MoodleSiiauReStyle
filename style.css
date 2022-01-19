@@ -23,8 +23,39 @@
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1200px;
 }
+.modal-dialog {
+  border-radius: 10px !important;
+  max-width: 80% !important;
+  
+}
+table{
+  width: 100%;
+}
+table tr {
+  padding: 5px;
+}
+.logininfo{
+  display: none;
+}
+.mode {
+  padding: 5px !important;
+  border: none !important;
+  border-radius: 5px !important;
+  background-color: #191970;
+  color: #fff;
+  margin: 0 5px !important;
+}
 
+button#change:hover{
+    background: rgb(43, 43, 130) !important;
+}
 
+button#change.ligth:hover {
+    background: rgb(255 128 0) !important;
+}
+.mode.ligth {
+  background: #FFCC66 !important;
+}
 
     
 
@@ -63,7 +94,7 @@ input{
 
 .card{
     border-radius: 5px !important;
-    border: none !important;    
+    border: none !important;
     overflow: hidden !important;
 }
 
@@ -154,6 +185,7 @@ footer a{
 
 body{
     background: rgb(225,225,225) !important;
+    transition: ease all 0.1s;
 }
 
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
@@ -165,7 +197,7 @@ body{
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus{
     border: none !important;
     background: rgb(200,200,200) !important;
-    border-radius: 5px !important;    
+    border-radius: 5px !important;
 }
 
 .section-navigation.mdl-bottom{
@@ -177,15 +209,14 @@ body{
 #intro {
     padding: 1.25rem !important;
 }
-
-#intro table{
+table{
     width: 100% !important;
     border: none !important;
     border-radius: 5px !important;
     overflow: hidden !important;
-} 
+}
 
-#intro table tr:nth-child(2n+1){
+table tr:nth-child(2n+1){
     background-color: #eeeeee !important;
     text-align: center !important;
 }
@@ -193,3 +224,10 @@ body{
 .navbar #nav-notification-popover-container {
     color: #000 !important;
 }
+
+.custom-select {
+  border: none !important;
+  border-radius: 5px !important;
+  background: rgb(200,200,200) !important;
+}
+

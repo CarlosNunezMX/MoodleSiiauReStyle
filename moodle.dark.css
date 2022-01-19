@@ -1,0 +1,138 @@
+body.dark {
+  background: #0f0f0f !important;
+  color: #fff !important;
+}
+.dark .dropdown-item a:hover,
+.dark .dropdown a:hover{
+  color: #fff !important;
+}
+.dark .card{
+  background: rgb(50,50,50) !important;
+}
+.dark .btn#message-user-button, .dark .btn#message-user-button > *{
+  background: rgb(100, 100, 100) !important;
+  color: #fff !important;
+}
+.dark a:hover {
+  color: var(--info) !important;
+}
+.dark a{
+  color: #fff !important;
+}
+.dark footer > *{
+  color: #fff !important;
+}
+
+.dark .bg-white  {
+  background: #0a0a0a !important;
+}
+.dark .popover-region-toggle{
+  color: #fff !important;
+}
+.dark input{
+    background: rgb(150,150,150) !important;
+}
+.dark .btn-outline-secondary{
+    background: #152d32	 !important;
+}
+.dark .calendar-controls{
+    background: var(--blue) !important;
+}
+.dark nav .btn-ligth:hover {
+    background: #08090a !important;
+}
+.dark footer > *{
+    color: #000 !important;
+}
+.dark .modal-content{
+  background: #000 !important;
+}
+.dark .modal-content table {
+  border-color: none !important;
+  border: none !important;
+}
+
+.dark .dropdown-item:hover,
+.dark .menu-action:hover{
+  background: var(--indigo) !important;
+  color: #fff;
+}
+.dark .dropdown-menu,
+.dark .dropdown-menu > *,
+.dark .dropdown-menu .dropdown-divider{
+  color: #fff !important;
+  border: none !important;
+  background: rgb(160, 160, 160) !important;
+}
+.dark .btn-light,
+.dark .btn-light a{
+  color: #fff !important;
+  border-radius: 5px !important;
+  overflow: hidden !important;
+}
+.dark .btn-light:hover,
+.dark .btn-light a:hover{
+  background: rgba(255,255,255,0.3) !important;
+}
+.dark #nav-drawer div.list-group-item{
+    background: #000 !important;
+    color: #f0f0f0 !important;
+}
+.dark .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
+    background: rgb(0,0,0) !important;
+}
+
+.dark .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus{
+    background: rgb(150,150,150) !important;
+}
+.dark #nav-drawer {
+  background: transparent !important;
+}
+
+.dark table tr:nth-child(2n+1){
+    background-color: rgb(0,0,0) !important;
+}
+
+.dark .navbar #nav-notification-popover-container {
+    color: #fff !important;
+}
+
+.dark .list-group-item {
+  background: transparent !important;
+}
+
+.dark .list-group-item > * {
+  color: #fff !important;
+}
+
+.dark #region-main,
+.dark #region-main > *{
+  background-color: rgb(50, 50, 50) !important;
+  color: #fff !important;
+}
+.dark .sr-only-focusable{
+  background: #000 !important;
+}
+.dark .generaltable tbody tr > *
+{
+  color: #fff !important;
+}
+
+.dark .submissionnotgraded{
+  color: #fff !important;
+  background: #000 !important;
+}
+
+.dark .custom-select {
+  color: #fff !important;
+  background: #000 !important;
+}
+
+.dark #goto-top-link a{
+  color: #fff !important;
+  background: #000 !important;
+}
+
+.generaltable th, .generaltable td{
+  border: none !important;
+}
